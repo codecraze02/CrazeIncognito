@@ -17,7 +17,7 @@ Incognito to plugin do Minecraft, który pozwala graczom ukryć swoją prawdziw�
 - Włączanie i wyłączanie trybu incognito przez komendę `/incognito on|off`.
 - Sprawdzanie statusu incognito `/incognito status`.
 - Zmiana nicka i skóry gracza na fałszywe w trybie incognito.
-- Wyświetlanie prawdziwego nicka tylko dla osób z uprawnieniem `codecraze.incognito.bypass`.
+- Wyświetlanie prawdziwego nicka tylko dla osób z uprawnieniem `incognito.bypass`.
 - Przeładowanie konfiguracji pluginu komendą `/reloadincognito`.
 - Obsługa konfiguracji wiadomości przez plik JSON.
 - Proste uprawnienia do komend.
@@ -41,7 +41,7 @@ Incognito to plugin do Minecraft, który pozwala graczom ukryć swoją prawdziw�
 |------------------------------|-------------------------------------------|-------------------------|
 | `incognito.use`              | Pozwala korzystać z komendy `/incognito` | Wszystkie grupy          |
 | `incognito.reload`           | Pozwala przeładować konfigurację          | Operatorzy (op)          |
-| `codecraze.incognito.bypass` | Pozwala widzieć prawdziwe nicki graczy    | Operatorzy (op)          |
+| `incognito.bypass` | Pozwala widzieć prawdziwe nicki graczy    | Operatorzy (op)          |
 
 ---
 
