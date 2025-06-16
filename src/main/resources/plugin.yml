@@ -1,0 +1,27 @@
+name: IncognitoPlugin
+version: '1.0-SNAPSHOT'
+main: pl.codecraze.incognito.plugin.IncognitoPlugin
+api-version: '1.20'
+authors: [ CodeCraze ]
+
+commands:
+  incognito:
+    description: Zarządzaj trybem incognito
+    usage: /incognito <on|off|status>
+    aliases: [incog]
+    permission: incognito.use
+  reloadincognito:
+    description: Przeładuj konfigurację pluginu
+    usage: /reloadincognito
+    permission: incognito.reload
+
+permissions:
+  incognito.use:
+    description: Pozwala używać komendy /incognito
+    default: true
+  incognito.reload:
+    description: Pozwala przeładować konfigurację pluginu
+    default: op
+  incognito.bypass:
+    description: Pozwala widzieć prawdziwe nicki graczy będących w trybie incognito.
+    default: op
