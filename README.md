@@ -68,7 +68,6 @@ Plugin korzysta z plików JSON do konfiguracji i wiadomości. Przykładowe pliki
 
 Masz pytania lub potrzebujesz pomocy?  
 Skontaktuj się: [ComplexHub.pl] https://discord.com/invite/mXpWpQBsQ5 
-GitHub repo: *(tutaj link, jeśli dostępny)*
 
 ---
 
