@@ -50,6 +50,8 @@ public class IncognitoCommand implements CommandExecutor {
                     return true;
                 }
                 user.setIncognitoEnabled(true);
+                final String incognitoName = "UKRYTY_" + getRandomNickname();
+                user.setFakeNickname(incognitoName);
                 IncognitoHelper.updatePlayerProfile(user, user.getFakeNickname(), user.getFakeSkinTexture(), user.getFakeSkinTextureSignature());
                 ChatHelper.sendMessage(player, this.plugin.getConfigConfiguration().messages.INCOGNITO_ENABLED);
             }
